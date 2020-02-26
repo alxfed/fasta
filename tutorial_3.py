@@ -5,6 +5,7 @@ from fastai.text import *
 
 
 def main():
+    #...
     imdb = untar_data(URLs.IMDB_SAMPLE)
     data_lm = load_data(imdb)
 
